@@ -1,4 +1,4 @@
-// import { EXCHANGE_RATE_API_KEY as apiKey } from "../api.js";
+import { EXCHANGE_RATE_API_KEY as apiKey } from "../api.js";
 
 const ratesBox = document.querySelectorAll(".rates-box");
 const selectBox = document.querySelectorAll("#select");
