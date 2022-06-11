@@ -1,0 +1,1 @@
+export const EXCHANGE_RATE_API_KEY="08aa1793419fbcdcaac3bf3d";
