@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Exchange Rate App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>Currency Converter</header>
+      <form action="#" id="form">
+        <p>Enter Amount</p>
+        <input type="text" name="amount" id="amount" value="1" />
+        <div class="rates-box">
+          <div class="from-box">
+            <p>From</p>
+            <div class="select-box">
+              <img
+                src="https://flagcdn.com/us.svg"
+                class="flags"
+                alt="Australia"
+              />
+              <select id="select">
+                <option value="USD">USD</option>
+              </select>
+            </div>
+          </div>
+          <div class="icon"><i class="bi bi-arrow-left-right"></i></div>
+          <div class="to-box">
+            <p>To</p>
+            <div class="select-box">
+              <img
+                src="https://flagcdn.com/gb.svg"
+                class="flags"
+                alt="Liberia"
+              />
+              <select id="select">
+                <option value="GBP">GBP</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="output"></div>
+        <button type="submit">Get Exchange Rate</button>
+      </form>
+    </div>
+
+    <script src="./static/countries.js"></script>
+    <script src="./static/app.js" defer type="module"></script>
+  </body>
+</html>
